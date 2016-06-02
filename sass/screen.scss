@@ -1,24 +1,13 @@
-* Welcome to Compass.
+/* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  /* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+@import "compass/css3";
  
-.example {
-  padding: 2em;
-  div {
-    background-color: blue;
-    border: 10px solid rgba(255, 0, 0, 0.5);
-    color: white;
-    @include text-shadow(darken(blue, 50%) 2px 2px);
-    padding: 3px;
-    text-align: center;
-    margin-bottom: 2em;
-  }
-  #padding-box {
-    @include background-clip(padding-box);
-  }
-  #border-box {
-    @include background-clip(border-box);
-  }
+#inline-block {
+  @include inline-block;
+  padding: 4px 10px;
+  background: red;
+  color: white;
 }
