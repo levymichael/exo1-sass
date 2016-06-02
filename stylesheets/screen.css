@@ -1,15 +1,121 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  /* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 8, ../sass/screen.scss */
-#inline-block {
+html {
+  margin: 0;
+  padding: 0;
+  background: url(../images/slide.jpg) 1600px;
+  background-image: center;
+}
+
+/* line 15, ../sass/screen.scss */
+body {
+  /**background-image: url("../images/slide.jpg");width:500px;**/
+  style-width: 200px;
+  margin: 100px 50px 0 50px;
+}
+
+/* line 22, ../sass/screen.scss */
+#logo {
+  margin: 100 0 0 100;
+  width: 350px;
+  /**border: 1px solid;**/
+  color: black;
+}
+
+/* line 29, ../sass/screen.scss */
+#titre {
+  float: top;
   display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  padding: 4px 10px;
-  background: red;
+  width: auto;
+  border: 1px solid;
+  color: #00b1ba;
+  margin: 0 0 0 0;
+}
+
+/* line 40, ../sass/screen.scss */
+#menu {
+  float: auto;
+}
+
+/* line 43, ../sass/screen.scss */
+li {
+  list-style: none;
+  /** pas de "points" devant chaque liste...annule aussi les effets de styles comme italique ou surligné**/
+  display: inline;
+  /** aligne les li en "inline" et les considère chacuns d'eux comme un "block"**/
+  width: 25%;
+  /**chaque li est positionné à 33% entre eux dans la div(on divise la div en 3 en gros) **/
+  text-align: left;
+  padding: 20px 20px 20px 0;
+  margin: 0 0 0 0;
   color: white;
+  /**border:dotted .5px;j'ai utilisé la fonction pour montrer que désormais chaque "li"  deviennent des "block" grâce à "inline-block" on peut écrire comme ça aussi**/
+}
+
+/* line 54, ../sass/screen.scss */
+#carre {
+  display: inline-block;
+  /** aligne les li en "inline" et les considère chacuns d'eux comme un "block"**/
+  width: 25%;
+  /**chaque li est positionné à 33% entre eux dans la div(on divise la div en 3 en gros) **/
+  text-align: auto;
+  padding: 20px 20px 20px 0px;
+}
+
+/* line 59, ../sass/screen.scss */
+#toto {
+  float: left;
+  width: auto;
+  border: 1px solid;
+  color: red;
+  margin: 0 0 0 0;
+}
+
+/* line 66, ../sass/screen.scss */
+#tutu {
+  float: left;
+  width: auto;
+  border: 1px solid;
+  color: red;
+  margin: 0 0 0 0;
+}
+
+/* line 73, ../sass/screen.scss */
+#titi {
+  float: left;
+  width: auto;
+  border: 1px solid;
+  color: red;
+  margin: 0 0 0 0;
+}
+
+/* line 80, ../sass/screen.scss */
+#tete {
+  float: left;
+  width: auto;
+  border: 1px solid;
+  color: red;
+  margin: 0 0 0 0 0;
+}
+
+/* line 88, ../sass/screen.scss */
+#tata {
+  float: left;
+  width: auto;
+  border: 1px solid;
+  color: red;
+  margin: 0 0 0 0;
+}
+
+/* line 95, ../sass/screen.scss */
+#tyty {
+  float: left;
+  width: auto;
+  border: 1px solid;
+  color: red;
+  margin: 0 0 0 0 0;
 }
