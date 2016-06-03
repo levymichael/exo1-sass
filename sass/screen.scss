@@ -30,7 +30,7 @@ body{
 	float:top;
 	display:inline-block;
     width: auto;
-    border: 1px solid;
+   /** border: 1px solid;**/
      color:  #00b1ba;
      margin:0 0 0 0;
 }
@@ -52,13 +52,13 @@ li{
 }
 
 #carre{display: inline-block;/** aligne les li en "inline" et les considère chacuns d'eux comme un "block"**/
-	width: 25%;/**chaque li est positionné à 33% entre eux dans la div(on divise la div en 3 en gros) **/
+	width: 10%;/**chaque li est positionné à 33% entre eux dans la div(on divise la div en 3 en gros) **/
 	text-align:auto;
 	padding:20px 20px 20px 0px;
 	}
 #toto{float: left;
     width: auto;
-    border: 1px solid;
+    /**border: 1px solid;***/
      color:  red;
      margin:0 0 0 0;
 
@@ -66,36 +66,36 @@ li{
 #tutu{
 	float: left;
     width: auto;
-    border: 1px solid;
+    /**border: 1px solid;**/
      color:  red;
      margin:0 0 0 0;
 }
 #titi{
 	float: left;
     width: auto;
-    border: 1px solid;
+    /**border: 1px solid;**/
      color:  red;
      margin:0 0 0 0;
 }
 #tete{
 	float: left;
     width: auto;
-    border: 1px solid;
+    /**border: 1px solid;**/
      color:  red;
      margin:0 0 0 0 0;
 }
 
 #tata{
-	float: left;
+	float: right;
     width: auto;
-    border: 1px solid;
+    /**border: 1px solid;**/
      color:  red;
      margin:0 0 0 0;
 }
 #tyty{
-	float: left;
+	float: right;
     width: auto;
-    border: 1px solid;
+    /**border: 1px solid;**/
      color:  red;
      margin:0 0 0 0 0;
  }
